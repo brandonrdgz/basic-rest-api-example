@@ -12,7 +12,7 @@ CREATE TABLE `users` (
 CREATE TABLE `users_data` (
   `user_id` BIGINT NOT NULL,
   `first_name` varchar(255) NOT NULL,
-  `last_name` varchar(255) NOT NULL
+  `last_name` varchar(255) NOT NULL,
   UNIQUE (`user_id`)
 );
 
